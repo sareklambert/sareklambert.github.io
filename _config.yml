@@ -31,12 +31,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sarek Lambert
-subtitle: Gameplay Programmer
+subtitle: Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   This is a portfolio website to show pieces of my gamedev adventures.
 author: Sarek Lambert
 email: sarek.lambert@googlemail.com
-avatar: assets/images/avatar.jpg
+avatar: assets/images/avatar.png
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -52,6 +52,6 @@ github_url: https://github.com/sareklambert
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-#theme: jekyll-theme-prologue
-remote_theme: chrisbobbe/jekyll-theme-prologue
+theme: jekyll-theme-prologue
+#remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
