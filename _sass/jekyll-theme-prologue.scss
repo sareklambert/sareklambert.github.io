@@ -59,6 +59,13 @@
 
 /* Basic */
 
+	iframe {
+		width: 80%;
+		aspect-ratio: 16 / 9;
+		display: block;
+		margin: auto;
+	}
+
 	body {
 		background: _palette(shade4);
 		font-family: 'Source Sans Pro', sans-serif;
