@@ -32,6 +32,9 @@ allowing anyone to contribute and expand on the project.
 
 <br>
 
+### Project structure
+<img src="../../../assets/images/verlet integration/structure.png" style="width: 100%; height: auto;">
+
 ### Why it’s in my portfolio
 I've included this piece to highlight my ability to produce publicly documented tools for other developers.
 It also showcases my experience in researching topics and implementing them in an
