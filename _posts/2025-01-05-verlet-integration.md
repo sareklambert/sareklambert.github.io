@@ -3,13 +3,10 @@ title: Verlet Integration
 author: Sarek
 layout: page
 ---
-
-### Overview
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/sareklambert/gms-verlet-integration/blob/main/LICENSE)
 [![Gamemaker-tested](https://img.shields.io/badge/GameMaker-orange?style=flat&logo=gamemaker&label=Made%20with)](https://gamemaker.io)
 
 <iframe src="https://www.youtube.com/embed/Qcp4IX7KipI?si=X_U88j1Y7RCK9FOX" allow="autoplay; encrypted-media; fullscreen;"></iframe>
-
 <br>
 
 ### Description
@@ -36,11 +33,8 @@ allowing anyone to contribute and expand on the project.
 <img src="../../../assets/images/verlet integration/structure.png" style="width: 100%; height: auto;">
 
 ### Why it’s in my portfolio
-I've included this piece to highlight my ability to produce publicly documented tools for other developers.
-It also showcases my experience in researching topics and implementing them in an
-engine of my choice - in this case Gamemaker.
-By maintaining an accessible and polished library, I demonstrate my commitment to code quality, usability,
-and knowledge sharing within the game development community.
+I've included this piece to demonstrate how I would implement an open-source library for other developers.
+The library follows a clear structure, is documented and includes an example implementation.
 
 ### Source
 * [Github repo](https://github.com/sareklambert/gms-verlet-integration)
