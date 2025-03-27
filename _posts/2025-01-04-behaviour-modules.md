@@ -13,21 +13,21 @@ layout: page
 
 ### Description
 <div class="blockText"> {{"
-Behaviour Modules is a **simple**, yet **effective**, **system** for **managing AI agents**.
-An agent defines a list of **states**. A state defines its own lists of **behaviours** and **state change conditions**.
-When the agent enters a state, it chooses one of the behaviours depending on the associated **weight**.
-That way, two agents with the same behaviours can still have a distinct **'personality'**. For example a big lazy ogre
-will be likely to choose the wait behaviour and only occasionally wander around. On the other hand, a restless goblin
-will wander around without frequent stops.
+**Behaviour Modules** is a **simple** yet **effective** system for **managing AI agents**. Each agent defines a set of **states**, and each
+state contains its own list of **behaviours** and state change **conditions**. When an agent enters a state, it selects a
+behaviour based on predefined **weights**. This allows agents with the same behaviours to exhibit unique **‘personalities’**.
+For example, a large, lazy ogre might frequently choose the wait behaviour, only occasionally wandering around.
+Meanwhile, a restless goblin would move constantly, stopping only briefly.
 
-The ability to **swap out** different behaviour modules **at runtime** opens up other interesting possibilities as well.
-The games **difficulty** level may be **dynamically** increased by **inserting new behaviours**. In a platformer game project I've
-added an enemy which would **charge** the player on sight. The attack could be easily avoided by jumping over the incoming
-enemy. However, when choosing a harder difficulty the enemy would have an **additional trigger** which caused it to **jump
-whenever the player jumped**, making it a very menacing foe to deal with.
+The ability to **swap behaviour modules at runtime** opens up exciting possibilities. For instance, game **difficulty** can be
+**dynamically adjusted** by introducing new behaviours. In a platformer project, I implemented an enemy that would charge
+at the player on sight. Initially, the attack could be easily avoided by jumping over the enemy. However, on higher
+difficulty levels, the enemy gained an additional behaviour — jumping whenever the player jumped — making it a much more
+menacing foe to deal with.
 
-By implementing the system in a modular way, we can **keep behaviour blocks simple** and assemble **complex**, **distinct** agent
-behaviour while ensuring **maintainability** for the individual modules.
+By designing the system in a modular way, we **keep individual behaviour blocks simple** while enabling the creation of
+**complex** and **varied** agent behaviours. This approach ensures **flexibility**, **maintainability**, and **scalability** across
+different AI implementations.
 "| markdownify }} </div>
 
 <div class="screenshots">
@@ -39,14 +39,14 @@ behaviour while ensuring **maintainability** for the individual modules.
 
 ### Development process
 <div class="blockText"> {{"
-As I've developed many of my more advanced systems for **Tainted Gun**, my GameMaker project, I wanted to demonstrate how
-I'd translate one of the simpler systems of that project to another language. For this example I picked my AI agent
-manager and first translated it into **C++**. After, that I used that translation as a base for my **Unity** version.
+Since many of my more advanced systems were developed for **Tainted Gun**, my GameMaker project, I wanted to showcase how
+one of its simpler systems could be **translated** into **another language**. For this example, I chose my **AI agent manager**,
+first converting it into **C++** and then using that version as a foundation for my **Unity implementation**.
 
-Both, the GameMaker and the C++ version **define enemy states in code**. In the Unity implementation behaviours are derived
-from **monobehaviour** and instantiated in the scene hierarchy, so they can **hold references to scene objects**. I've also added
-a couple of custom **editor scripts** to utilize the inspector GUI, allowing a game designer to quickly wire together
-behaviour in the **inspector** without having to touch code.
+Both the GameMaker and C++ versions **define enemy states** directly **in code**. However, in the Unity implementation,
+behaviours are derived from **MonoBehaviour** and instantiated within the scene hierarchy, allowing them to **reference
+scene objects**. Additionally, I created **custom editor scripts** to utilize the inspector GUI, enabling game designers
+to wire behaviours together **visually** without needing to modify code.
 "| markdownify }} </div>
 
 ### Project structure

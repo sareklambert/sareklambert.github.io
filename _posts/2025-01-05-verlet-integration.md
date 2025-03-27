@@ -11,11 +11,11 @@ layout: page
 
 ### Description
 <div class="blockText"> {{"
-Verlet Integration is a **physics simulation** method used for **soft-body dynamics**, **ropes**, and **cloth simulation**.
-I've implemented this technique in **GameMaker**, creating a **2D physics library** that allows for an easy setup of these
-simulations. The library contains expandable classes for basic objects, helper classes for **force fields** and **connectors**,
-an example **implementation**, and a **wireframe** mode for debugging. By **chaining together** multiple simulated objects,
-interesting structures for **decoration** can be created.
+**Verlet Integration** is a **physics simulation** method commonly used for **soft-body dynamics**, **ropes**, and **cloth simulation**.
+I implemented this technique in **GameMaker** by developing a 2D physics **library** that **simplifies setting up** these
+simulations. The library includes expandable classes for basic objects, helper classes for **force fields** and
+**connectors**, an **example implementation**, and a **wireframe** mode for debugging. By chaining multiple simulated objects
+together, it’s possible to create dynamic and visually interesting structures for **decoration** or **gameplay** features.
 "| markdownify }} </div>
 
 <div class="screenshots">
@@ -27,15 +27,15 @@ interesting structures for **decoration** can be created.
 
 ### Development process
 <div class="blockText"> {{"
-I've originally developed this library as part of a smaller game project and later decided to release it **publicly on
-itch.io**, where it gained significant traction. Noticing other devs interest in it, I decided to refactor the code,
-improving its **structure**, **readability**, and **maintainability** while adding better **documentation** and examples.
-The library now includes helper functions for features like **force fields** and **textured cloth / ropes**, making it more
-versatile and **user-friendly**. To encourage collaboration and further improvements, I made the project **open-source
-on GitHub**, allowing anyone to contribute and expand on the project.
+I originally developed this library as part of a small game project but later decided to release it **publicly on
+itch.io**, where it gained significant popularity. Seeing interest from other developers, I refactored the code to
+improve its **structure**, **readability**, and **maintainability** while also adding better **documentation** and examples.
+The updated library now includes helper functions for features like force fields and **textured cloth / ropes**, making
+it more versatile and **user-friendly**. To encourage collaboration and further improvements, I made the project
+**open-source** on **GitHub**, allowing anyone to contribute and expand upon it.
 
-I've included this piece to demonstrate how I would implement an open-source library for other developers.
-The library follows a clear structure, is documented and includes an example implementation.
+I included this project to showcase how I approach developing an open-source library for other developers.
+It follows a clear structure, is well-documented, and comes with an example implementation.
 "| markdownify }} </div>
 
 ### Project structure
