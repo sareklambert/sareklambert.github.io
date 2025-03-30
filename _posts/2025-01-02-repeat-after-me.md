@@ -13,7 +13,8 @@ layout: page
 **Repeat After Me** is one of the projects I developed **during my studies** as part of a larger student **team**.
 It’s a **3D puzzle platformer** centered around a unique **cloning**, **recording**, and **replaying** mechanic, enabling
 a **single player** to **solve puzzles designed for multiple people**. The game gained significant traction during our
-semester, leading to an **exhibition** in the indie area at **Gamescom** and the later release of our demo on **Steam**.
+semester, leading to multiple **exhibitions** on the **German Dev Days** as well as in the indie area at **Gamescom**,
+and the later release of our demo on **Steam**.
 "| markdownify }} </div>
 
 <div class="screenshots">
@@ -45,7 +46,7 @@ management through **preallocating lists**, **object pooling**, etc.
 
 We **presented** the project **on campus**, conducting **playtesting sessions** with other students. Their feedback provided a
 list of **refinements** and **additional features**, which we implemented over the semester break. Finally, we **exhibited** our
-game at **Gamescom**, showcasing our work to a **wider audience**.
+game, first at the **German Dev Days**, and later at **Gamescom**, showcasing our work to a **wider audience**.
 "| markdownify }} </div>
 
 ### Project structure
