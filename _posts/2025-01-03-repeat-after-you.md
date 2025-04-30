@@ -33,7 +33,7 @@ a level editor constituted a **new and distinct technical challenge**. This made
 continue a previous project, ultimately leading to a policy change at our university that now allows other teams to
 extend their work under special circumstances.
 
-We **reassembled our original team**, adding two more artists, one of whom focused specifically on UI design. This
+We reassembled our original team, adding two more artists, one of whom focused specifically on UI design. This
 continuity allowed us to **retain the existing infrastructure** from the previous semester, including our **CI pipeline**,
 **version control system**, and **code review workflow** using **Perforce**.
 
@@ -57,11 +57,9 @@ Once the editor reached **feature-complete status**, I focused on **performance 
 smooth and intuitive user experience.
 "| markdownify }} </div>
 
-### Project structure
-<div class="structure">
-    <img src="../../../assets/images/ray/structure.png">
-</div>
-<br>
-
 ### Source
 * [Github repo](https://github.com/sareklambert/repeat-after-you)
+
+<div style="text-align: center;">
+<a href="../../../2025/01/04/behaviour-modules.html" class="button scrolly">Next project</a>
+</div>

@@ -58,6 +58,26 @@
 	));
 
 /* Basic */
+	.fixed-image-bottom {
+		position: absolute;
+		bottom: 20px;
+		left: 40px;
+		width: 256px;
+		height: 256px;
+		overflow: hidden;
+	}
+	
+	.fixed-image-bottom img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		transform: translate(-50%, -50%);
+		object-fit: cover;
+		display: block;
+	}
+
 	.screenshots {
 		display: flex;
 		justify-content: space-between;

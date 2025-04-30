@@ -10,7 +10,7 @@ layout: page
 ### Description
 <div class="blockText"> {{"
 **Tainted Gun** is a 2D rogue-lite platformer, featuring a **fully destructible environment** with **per-pixel** terrain
-deformation. The game's core mechanics revolve around guns that fire **neon liquid**, allowing the player to **manually
+deformation. The game's core mechanics revolve around guns that fire neon liquid, allowing the player to **manually
 place light sources** in order to explore dark cave systems. A secondary mining laser allows players to extract resources
 from the terrain, which are used for equipment **crafting**. The game incorporates **pseudo random level generation** using
 **ingame map editors** and a dynamic **global illumination** system for **infinite light sources**.
@@ -26,11 +26,11 @@ from the terrain, which are used for equipment **crafting**. The game incorporat
 ### Development process
 <div class="blockText"> {{"
 **Tainted Gun** started as a simple idea in a small **game jam** project that never saw the light of day. The concept was a
-**puzzle game** where the player had a limited number of **light sources** they could **place** to navigate the level. Though
+**puzzle game** where the player had a limited number of **light sources** they could place to navigate the level. Though
 that project was abandoned, the idea stuck with me.
 
 Years later, I participated in another game jam with the theme **'Neon'**. Remembering my old concept, I reimagined it as a
-shoot 'em up platformer with a unique twist — the player’s **gun** not only dealt damage but also illuminated the world using
+shoot 'em up platformer with a unique twist — the player’s gun not only dealt damage but also illuminated the world using
 **glowing neon liquid**. This new prototype had potential, and I decided to expand it into a full game.
 
 #### Evolving the Lighting Engine
@@ -55,7 +55,7 @@ that follow specific **patterns**. The generator **assembles** these rooms **pro
 while maintaining interesting level layouts. The cave walls are **rendered** as textures, then further refined using:
 
 * Polygonal shaping for more **organic edges**
-* Noise shaders for **ore** placement
+* Noise shaders for ore placement
 * Thickness-based shaders to generate **albedo** and **normal maps** dynamically
 
 #### Custom UI Framework & Future Plans
@@ -67,12 +67,9 @@ Tainted Gun is still far from completion, but the core mechanics are in place. W
 tinkering with this passion project — refining the gameplay, improving performance, and adding new features.
 "| markdownify }} </div>
 
-### Project structure
-<div class="structure">
-    <img src="../../../assets/images/tainted gun/structure.png">
-</div>
-<br>
-
 ### Source
 * [Github repo](https://github.com/sareklambert/tainted-gun-public)
-* [Steam page](https://store.steampowered.com/app/1868350/Tainted_Gun)
+
+<div style="text-align: center;">
+<a href="../../../2025/01/02/repeat-after-me.html" class="button scrolly">Next project</a>
+</div>

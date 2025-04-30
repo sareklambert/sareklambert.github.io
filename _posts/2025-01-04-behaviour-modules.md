@@ -13,7 +13,7 @@ layout: page
 
 ### Description
 <div class="blockText"> {{"
-**Behaviour Modules** is a **simple** yet **effective** system for **managing AI agents**. Each agent defines a set of **states**, and each
+**Behaviour Modules** is a simple yet effective system for **managing AI agents**. Each agent defines a set of **states**, and each
 state contains its own list of **behaviours** and state change **conditions**. When an agent enters a state, it selects a
 behaviour based on predefined **weights**. This allows agents with the same behaviours to exhibit unique **‘personalities’**.
 For example, a large, lazy ogre might frequently choose the wait behaviour, only occasionally wandering around.
@@ -49,11 +49,9 @@ scene objects**. Additionally, I created **custom editor scripts** to utilize th
 to wire behaviours together **visually** without needing to modify code.
 "| markdownify }} </div>
 
-### Project structure
-<div class="structure">
-    <img src="../../../assets/images/behaviour modules/structure.png">
-</div>
-<br>
-
 ### Source
 * [Github repo](https://github.com/sareklambert/behaviourModules)
+
+<div style="text-align: center;">
+<a href="../../../2025/01/05/verlet-integration.html" class="button scrolly">Next project</a>
+</div>

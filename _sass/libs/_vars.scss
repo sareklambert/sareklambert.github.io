@@ -19,24 +19,47 @@
 
 // Palette.
 	$palette: (
+		/*// Light mode
+		// Shade
+		shade1: #4d88c0,
+		shade1-2: #c9e8f8,
+		shade2: #f7fafc,
+		shade3: #B7C9E8,
+		shade4: #F0F4FF,
+			
+		// Thumbnail
+		thumbnailBg: #4d88c0,
+		thumbnailText: #f7fafc,
+					
+		// Button
+		buttonBase: #63809b,
+		buttonHover: #7198a8,
+		buttonClick: #82b6b8,
+						
+		// Text
+		text1: #f7fafc,
+		text2: #f7fafc,
+		text3: #f7fafc,*/
+					
+		// Dark mode
 		// Shade
 		shade1: #1d1f26,
 		shade1-2: #24242C,
 		shade2: #2a2933,
 		shade3: #393640,
 		shade4: #43434d,
-			
+
 		// Thumbnail
-		thumbnailBg: #d5f6f0,
+		thumbnailBg: #dbedf1,
 		thumbnailText: #0a1115,
-					
+
 		// Button
 		buttonBase: #548c8c,
 		buttonHover: #7db3aa,
 		buttonClick: #add9ca,
-						
+
 		// Text
-		text1: #cfe1e6,
-		text2: #a3bfba,
+		text1: #e8f7fb,
+		text2: #bed6dc,
 		text3: #888888,
 	);
