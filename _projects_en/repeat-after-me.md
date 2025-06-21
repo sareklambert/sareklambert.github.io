@@ -1,8 +1,12 @@
-﻿---
-title: Repeat After Me
-author: Sarek
-layout: page
 ---
+title: Repeat After Me
+layout: page
+lang: en
+permalink: /en/projects/repeat-after-me/
+order: 1
+icon: fa-walking
+---
+
 [![Unity-tested](https://img.shields.io/badge/Made%20with-Unity%20-%23000000.svg?&logo=unity)](https://unity.com)
 
 <iframe src="https://www.youtube.com/embed/Dwql-KgXfdE?si=jU_M9EeAFab1Xar4" allow="autoplay; encrypted-media; fullscreen;"></iframe>
@@ -18,9 +22,9 @@ and the later release of our demo on **Steam**.
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/ram/screenshot1.png">
-    <img src="../../../assets/images/ram/screenshot2.png">
-    <img src="../../../assets/images/ram/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/ram/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/ram/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/ram/screenshot3.png' }}">
 </div>
 <br>
 
@@ -54,5 +58,5 @@ game, first at the **German Dev Days**, and later at **Gamescom**, showcasing ou
 * [Steam](https://store.steampowered.com/app/2470830/Repeat_After_Me/)
 
 <div style="text-align: center;">
-<a href="../../../2025/01/03/repeat-after-you.html" class="button scrolly">Next project</a>
+<a href="{{ site.baseurl | append: '/en/projects/repeat-after-you/index.html' }}" class="button scrolly">Next project</a>
 </div>

@@ -9,5 +9,23 @@
     <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
     <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
   </ul>
-  
+
+  <script>
+    function switchLang(targetLang) {
+      const path = window.location.pathname;
+      const parts = path.split('/').filter(p => p); // remove empty strings
+      let newPath;
+
+      if (parts[0] === 'en' || parts[0] === 'de') {
+        parts[0] = targetLang; // switch the language part
+        newPath = '/' + parts.join('/') + '/';
+      } else {
+        // if no lang prefix, assume root and redirect to landing page of chosen lang
+        newPath = '/' + targetLang + '/';
+      }
+
+      window.location.href = newPath;
+    }
+  </script>
+
 </div>

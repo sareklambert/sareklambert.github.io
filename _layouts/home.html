@@ -1,15 +1,32 @@
 ---
 layout: default
 ---
+
+{%- assign current_lang = page.lang | default: "en" -%}
+
+{%- if current_lang == "de" -%}
+{%- assign _sections = site.sections_de | sort: 'order' -%}
+{%- else -%}
 {%- assign _sections = site.sections | sort: 'order' -%}
+{%- endif -%}
+
 {%- include header.html scrolly_nav=_sections -%}
+
 <!-- Main -->
 <div id="main">
 	{%- if page.content != "" -%}
-		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
+	{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
+
 	<!-- Sections -->
 	{%- for _section in _sections -%}
-		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+	{%- include section.html
+	title=_section.title
+	photo=_section.cover-photo
+	photo-alt=_section.cover-photo-alt
+	auto-header=_section.auto-header
+	content=_section.content
+	index=forloop.index0
+	-%}
 	{%- endfor -%}
 </div>

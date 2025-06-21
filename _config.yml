@@ -54,4 +54,19 @@ google_analytics:
 # The following settings are NECESSARY for the Prologue theme to run:
 #theme: jekyll-theme-prologue
 #remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
+collections:
+  sections:
+    output: true
+  sections_de:
+    output: true
+#  sections_jp:
+#    output: true
+  projects_en:
+    output: true
+    permalink: /en/projects/:name/
+  projects_de:
+    output: true
+    permalink: /de/projects/:name/
+#  projects_jp:
+#    output: true
+#    permalink: /jp/projects/:name/

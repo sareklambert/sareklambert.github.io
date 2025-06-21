@@ -1,8 +1,12 @@
-﻿---
-title: Behaviour Modules
-author: Sarek
-layout: page
 ---
+title: Behaviour Modules
+layout: page
+lang: en
+permalink: /en/projects/behaviour-modules/
+order: 3
+icon: fa-sitemap
+---
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![made-with-cpp](https://img.shields.io/badge/C%2B%2B17-green?style=flat&label=Made%20with)](https://learn.microsoft.com/en-us/cpp/cpp/welcome-back-to-cpp-modern-cpp)
 [![Unity-tested](https://img.shields.io/badge/Made%20with-Unity%20-%23000000.svg?&logo=unity)](https://unity.com)
@@ -31,9 +35,9 @@ different AI implementations.
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/behaviour modules/screenshot1.png">
-    <img src="../../../assets/images/behaviour modules/screenshot2.png">
-    <img src="../../../assets/images/behaviour modules/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/behaviour modules/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/behaviour modules/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/behaviour modules/screenshot3.png' }}">
 </div>
 <br>
 
@@ -53,5 +57,5 @@ to wire behaviours together **visually** without needing to modify code.
 * [Github repo](https://github.com/sareklambert/behaviourModules)
 
 <div style="text-align: center;">
-<a href="../../../2025/01/05/verlet-integration.html" class="button scrolly">Next project</a>
+<a href="{{ site.baseurl | append: '/en/projects/verlet-integration/index.html' }}" class="button scrolly">Next project</a>
 </div>

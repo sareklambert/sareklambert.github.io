@@ -38,10 +38,16 @@
 	{%- endcapture -%}
 {%- endif -%}
 
-<section id="{{- _slug -}}" class="{{- _class -}}">
-  <div class="container">
-    {{- _photo -}}
-    {{- _heading -}}
-    {{- include.content -}}
-  </div>
+{%- assign section_index = include.index | default: 0 | plus: 0 -%}
+{%- assign shade_class = section_index | modulo: 2 | replace: '0', 'shade-one' | replace: '1', 'shade-two' -%}
+{%- if include.index == 0 -%}
+{%- assign shade_class = "shade-one cover dark" -%}
+{%- endif -%}
+
+<section id="{{- _slug -}}" class="{{- shade_class -}}">
+	<div class="container">
+		{{- _photo -}}
+		{{- _heading -}}
+		{{- include.content -}}
+	</div>
 </section>

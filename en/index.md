@@ -5,5 +5,6 @@
 layout: home
 title: Home
 icon: fa-home
+lang: en
 order: 1
 ---

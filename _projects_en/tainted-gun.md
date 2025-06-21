@@ -1,8 +1,12 @@
-﻿---
-title: Tainted Gun
-author: Sarek
-layout: page
 ---
+title: Tainted Gun
+layout: page
+lang: en
+permalink: /en/projects/tainted-gun/
+order: 0
+icon: fa-space-shuttle
+---
+
 [![Gamemaker-tested](https://img.shields.io/badge/GameMaker-orange?style=flat&logo=gamemaker&label=Made%20with)](https://gamemaker.io)
 
 <iframe src="https://www.youtube.com/embed/LcZ-spIuBZ0?si=cvgeyEmwaPGClQUd" allow="autoplay; encrypted-media; fullscreen;"></iframe>
@@ -17,9 +21,9 @@ from the terrain, which are used for equipment **crafting**. The game incorporat
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/tainted gun/screenshot1.png">
-    <img src="../../../assets/images/tainted gun/screenshot2.png">
-    <img src="../../../assets/images/tainted gun/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/tainted gun/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/tainted gun/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/tainted gun/screenshot3.png' }}">
 </div>
 <br>
 
@@ -71,5 +75,5 @@ tinkering with this passion project — refining the gameplay, improving perform
 * [Github repo](https://github.com/sareklambert/tainted-gun-public)
 
 <div style="text-align: center;">
-<a href="../../../2025/01/02/repeat-after-me.html" class="button scrolly">Next project</a>
+<a href="{{ site.baseurl | append: '/en/projects/repeat-after-me/index.html' }}" class="button scrolly">Next project</a>
 </div>

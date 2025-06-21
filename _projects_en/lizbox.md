@@ -1,8 +1,12 @@
-﻿---
-title: Lizbox
-author: Sarek
-layout: page
 ---
+title: Lizbox
+layout: page
+lang: en
+permalink: /en/projects/lizbox/
+order: 5
+icon: fa-wrench
+---
+
 [![Gamemaker-tested](https://img.shields.io/badge/GameMaker-orange?style=flat&logo=gamemaker&label=Made%20with)](https://gamemaker.io)
 
 <iframe src="https://www.youtube.com/embed/zRNpTJLAKzE?si=4N1GyI4RCSoPohNM" allow="autoplay; encrypted-media; fullscreen;"></iframe>
@@ -18,9 +22,9 @@ and multiple export options, making it both powerful and **user-friendly**.
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/lizbox/screenshot1.png">
-    <img src="../../../assets/images/lizbox/screenshot2.png">
-    <img src="../../../assets/images/lizbox/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/lizbox/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/lizbox/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/lizbox/screenshot3.png' }}">
 </div>
 <br>
 
@@ -52,5 +56,5 @@ the simpler 2D **shaders** I’ve worked on.
 * [Public download](https://jamjamteam.itch.io/lizbox)
 
 <div style="text-align: center;">
-<a href="../../../" class="button scrolly">Home</a>
+<a href="{{ '/en/' }}" class="button scrolly">Home</a>
 </div>

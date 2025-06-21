@@ -1,8 +1,12 @@
-﻿---
-title: Verlet Integration
-author: Sarek
-layout: page
 ---
+title: Verlet Integration
+layout: page
+lang: en
+permalink: /en/projects/verlet-integration/
+order: 4
+icon: fa-bowling-ball
+---
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/sareklambert/gms-verlet-integration/blob/main/LICENSE)
 [![Gamemaker-tested](https://img.shields.io/badge/GameMaker-orange?style=flat&logo=gamemaker&label=Made%20with)](https://gamemaker.io)
 
@@ -19,9 +23,9 @@ together, it’s possible to create dynamic and visually interesting structures 
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/verlet integration/screenshot1.png">
-    <img src="../../../assets/images/verlet integration/screenshot2.png">
-    <img src="../../../assets/images/verlet integration/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/verlet integration/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/verlet integration/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/verlet integration/screenshot3.png' }}">
 </div>
 <br>
 
@@ -43,5 +47,5 @@ It follows a clear structure, is well-documented, and comes with an example impl
 * [Public download](https://jamjamteam.itch.io/verlet-integration-gamemake-studio-2)
 
 <div style="text-align: center;">
-<a href="../../../2025/01/06/lizbox.html" class="button scrolly">Next project</a>
+<a href="{{ site.baseurl | append: '/en/projects/lizbox/index.html' }}" class="button scrolly">Next project</a>
 </div>

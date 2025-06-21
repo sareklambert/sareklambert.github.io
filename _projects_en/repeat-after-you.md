@@ -1,8 +1,12 @@
-﻿---
-title: Repeat After You
-author: Sarek
-layout: page
 ---
+title: Repeat After You
+layout: page
+lang: en
+permalink: /en/projects/repeat-after-you/
+order: 2
+icon: fa-edit
+---
+
 [![Unity-tested](https://img.shields.io/badge/Made%20with-Unity%20-%23000000.svg?&logo=unity)](https://unity.com)
 
 <iframe src="https://www.youtube.com/embed/UfmWDT9p7yo?si=vFIVl7djQLLdHUQi" allow="autoplay; encrypted-media; fullscreen;"></iframe>
@@ -18,9 +22,9 @@ other with custom levels.
 "| markdownify }} </div>
 
 <div class="screenshots">
-    <img src="../../../assets/images/ray/screenshot1.png">
-    <img src="../../../assets/images/ray/screenshot2.png">
-    <img src="../../../assets/images/ray/screenshot3.png">
+    <img src="{{ site.baseurl | append: '/assets/images/ray/screenshot1.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/ray/screenshot2.png' }}">
+    <img src="{{ site.baseurl | append: '/assets/images/ray/screenshot3.png' }}">
 </div>
 <br>
 
@@ -61,5 +65,5 @@ smooth and intuitive user experience.
 * [Github repo](https://github.com/sareklambert/repeat-after-you)
 
 <div style="text-align: center;">
-<a href="../../../2025/01/04/behaviour-modules.html" class="button scrolly">Next project</a>
+<a href="{{ site.baseurl | append: '/en/projects/behaviour-modules/index.html' }}" class="button scrolly">Next project</a>
 </div>
